@@ -1,0 +1,15 @@
+{
+  "parent": "modernlife:craft_register",
+  "display": {
+    "icon": { "item": "modernlife:adv_first_sale" },
+    "title": { "translate": "advancements.modernlife.first_sale.title" },
+    "description": { "translate": "advancements.modernlife.first_sale.description" },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sold_item": { "trigger": "modernlife:first_sale" }
+  }
+}

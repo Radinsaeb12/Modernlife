@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "modernlife:block/yazar_kasa",
+      "y": 90
+    },
+    "facing=east": {
+      "model": "modernlife:block/yazar_kasa",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "modernlife:block/yazar_kasa",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "modernlife:block/yazar_kasa"
+    }
+  }
+}

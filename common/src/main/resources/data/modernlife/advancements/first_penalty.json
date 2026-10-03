@@ -1,0 +1,15 @@
+{
+  "parent": "modernlife:root",
+  "display": {
+    "icon": { "item": "modernlife:adv_first_penalty" },
+    "title": { "translate": "advancements.modernlife.first_penalty.title" },
+    "description": { "translate": "advancements.modernlife.first_penalty.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_fine": { "trigger": "modernlife:first_fine" }
+  }
+}

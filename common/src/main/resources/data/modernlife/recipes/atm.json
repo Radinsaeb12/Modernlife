@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "I",
+    "C",
+    "R"
+  ],
+  "key": {
+    "I": { "item": "minecraft:iron_block" },
+    "C": { "item": "minecraft:chest" },
+    "R": { "item": "minecraft:redstone_block" }
+  },
+  "result": {
+    "item": "modernlife:atm",
+    "count": 1
+  },
+  "show_notification": true,
+  "advancement": {
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+      "has_iron_block": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:iron_block"]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_iron_block"
+      ]
+    ]
+  }
+}

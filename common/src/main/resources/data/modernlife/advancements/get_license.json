@@ -1,0 +1,18 @@
+{
+  "parent": "modernlife:root",
+  "display": {
+    "icon": { "item": "modernlife:adv_get_license" },
+    "title": { "translate": "advancements.modernlife.get_license.title" },
+    "description": { "translate": "advancements.modernlife.get_license.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_any_license": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["modernlife:vehicle_license", "modernlife:mount_license"] }] }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " B ",
+    " P ",
+    " I "
+  ],
+  "key": {
+    "B": { "item": "minecraft:blue_dye" },
+    "P": { "item": "minecraft:paper" },
+    "I": { "item": "minecraft:iron_ingot" }
+  },
+  "result": {
+    "item": "modernlife:identity_card",
+    "count": 1
+  },
+  "show_notification": true,
+  "criteria": {
+    "has_paper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:paper"] }]
+      }
+    }
+  }
+}

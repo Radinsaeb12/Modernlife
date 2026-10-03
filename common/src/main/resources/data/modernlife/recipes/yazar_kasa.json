@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "decorations",
+  "pattern": [
+    "I I",
+    " C ",
+    " R "
+  ],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "C": { "item": "minecraft:chest" },
+    "R": { "item": "minecraft:redstone" }
+  },
+  "result": {
+    "item": "modernlife:yazar_kasa",
+    "count": 1
+  },
+  "show_notification": true,
+  "criteria": {
+    "has_iron_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:iron_ingot"] }]
+      }
+    }
+  }
+}

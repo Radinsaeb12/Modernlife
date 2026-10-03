@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "modernlife:presidential_ballot" },
+    { "item": "minecraft:diamond" }
+  ],
+  "result": {
+    "item": "modernlife:admin_presidential_ballot",
+    "count": 1
+  },
+  "show_notification": true,
+  "criteria": {
+    "has_ballot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["modernlife:presidential_ballot"] }]
+      }
+    }
+  }
+}

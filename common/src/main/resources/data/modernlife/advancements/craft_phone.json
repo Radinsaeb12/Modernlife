@@ -1,0 +1,18 @@
+{
+  "parent": "modernlife:root",
+  "display": {
+    "icon": { "item": "modernlife:adv_craft_phone" },
+    "title": { "translate": "advancements.modernlife.craft_phone.title" },
+    "description": { "translate": "advancements.modernlife.craft_phone.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_phone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["modernlife:telefon_1", "modernlife:telefon_2"] }] }
+    }
+  }
+}

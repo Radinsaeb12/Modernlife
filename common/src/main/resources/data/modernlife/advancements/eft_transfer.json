@@ -1,0 +1,15 @@
+{
+  "parent": "modernlife:first_money",
+  "display": {
+    "icon": { "item": "modernlife:adv_eft_transfer" },
+    "title": { "translate": "advancements.modernlife.eft_transfer.title" },
+    "description": { "translate": "advancements.modernlife.eft_transfer.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "transferred": { "trigger": "modernlife:eft_transfer" }
+  }
+}

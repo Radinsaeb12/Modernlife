@@ -1,0 +1,18 @@
+{
+  "parent": "modernlife:ballot",
+  "display": {
+    "icon": { "item": "modernlife:adv_become_president" },
+    "title": { "translate": "advancements.modernlife.become_president.title" },
+    "description": { "translate": "advancements.modernlife.become_president.description" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_tax_panel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["modernlife:tax_panel"] }] }
+    }
+  }
+}

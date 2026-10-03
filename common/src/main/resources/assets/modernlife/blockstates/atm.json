@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "modernlife:block/atm",
+      "y": 90
+    },
+    "facing=east": {
+      "model": "modernlife:block/atm",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "modernlife:block/atm",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "modernlife:block/atm"
+    }
+  }
+}

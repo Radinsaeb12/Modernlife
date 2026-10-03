@@ -1,0 +1,18 @@
+{
+  "parent": "modernlife:root",
+  "display": {
+    "icon": { "item": "modernlife:adv_bank_card" },
+    "title": { "translate": "advancements.modernlife.bank_card.title" },
+    "description": { "translate": "advancements.modernlife.bank_card.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_bank_card": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["modernlife:bank_card"] }] }
+    }
+  }
+}

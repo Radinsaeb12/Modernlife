@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "minecraft:compass" },
+    { "item": "minecraft:gold_ingot" },
+    { "item": "minecraft:paper" }
+  ],
+  "result": {
+    "item": "modernlife:presidential_ballot",
+    "count": 1
+  },
+  "show_notification": true,
+  "criteria": {
+    "has_paper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:paper"] }]
+      }
+    }
+  }
+}

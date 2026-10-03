@@ -1,0 +1,15 @@
+{
+  "parent": "modernlife:craft_phone",
+  "display": {
+    "icon": { "item": "modernlife:adv_phone_call" },
+    "title": { "translate": "advancements.modernlife.phone_call.title" },
+    "description": { "translate": "advancements.modernlife.phone_call.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "called_player": { "trigger": "modernlife:phone_call" }
+  }
+}

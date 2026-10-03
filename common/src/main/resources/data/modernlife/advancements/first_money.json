@@ -1,0 +1,18 @@
+{
+  "parent": "modernlife:get_bank_card",
+  "display": {
+    "icon": { "item": "modernlife:adv_first_money" },
+    "title": { "translate": "advancements.modernlife.first_money.title" },
+    "description": { "translate": "advancements.modernlife.first_money.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_any_money": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["modernlife:tl_5", "modernlife:tl_10", "modernlife:tl_20", "modernlife:tl_50", "modernlife:tl_100", "modernlife:tl_200"] }] }
+    }
+  }
+}

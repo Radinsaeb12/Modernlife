@@ -1,0 +1,18 @@
+{
+  "parent": "modernlife:root",
+  "display": {
+    "icon": { "item": "modernlife:adv_ballot" },
+    "title": { "translate": "advancements.modernlife.ballot.title" },
+    "description": { "translate": "advancements.modernlife.ballot.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_ballot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["modernlife:presidential_ballot"] }] }
+    }
+  }
+}

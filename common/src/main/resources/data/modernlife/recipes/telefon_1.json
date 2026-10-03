@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "minecraft:iron_ingot" },
+    { "item": "minecraft:glass_pane" },
+    { "item": "minecraft:redstone" },
+    { "item": "minecraft:orange_dye" }
+  ],
+  "result": {
+    "item": "modernlife:telefon_1",
+    "count": 1
+  },
+  "show_notification": true,
+  "criteria": {
+    "has_iron_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:iron_ingot"] }]
+      }
+    }
+  }
+}

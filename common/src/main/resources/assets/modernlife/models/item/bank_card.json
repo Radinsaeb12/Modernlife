@@ -1,0 +1,52 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "modernlife:item/bank_card",
+		"particle": "modernlife:item/bank_card"
+	},
+	"elements": [
+		{
+			"from": [2, 5, 9],
+			"to": [10, 9, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 5, 8]},
+			"faces": {
+				"north": {"uv": [0.69457, 1.53798, 7.85426, 13.70853], "texture": "#0"},
+				"east": {"uv": [3.34884, 11.73333, 4.90233, 12.66667], "texture": "#0"},
+				"south": {"uv": [8.34419, 1.2155, 15.50388, 13.85736], "texture": "#0"},
+				"west": {"uv": [5.33333, 11.33643, 6.20155, 12.27907], "texture": "#0"},
+				"up": {"uv": [2.23256, 11.55969, 5.38295, 12.45271], "texture": "#0"},
+				"down": {"uv": [2.95194, 11.83256, 2, 13.43566], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-0.02, -1.46, -3.44],
+			"translation": [0, 2, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-1.5, 1.25, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 3, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [-2.5, 3, 0]
+		},
+		"ground": {
+			"translation": [2, 0, 0]
+		},
+		"gui": {
+			"translation": [1.25, 1.5, 0]
+		},
+		"head": {
+			"translation": [1.75, 9, -11.25],
+			"scale": [1.5918, 2.8457, 1]
+		},
+		"fixed": {
+			"rotation": [-180, 3.75, -180],
+			"translation": [-1, 0.5, 2]
+		}
+	}
+}

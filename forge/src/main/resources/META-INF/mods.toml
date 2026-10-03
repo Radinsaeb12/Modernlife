@@ -1,0 +1,53 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "modernlife"
+version = "${version}"
+displayName = "Modern Life"
+authors = "Modern Life Team"
+description = '''Modern Life Mod'''
+#logoFile = ""
+
+[[dependencies.modernlife]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[47,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.modernlife]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.20.1,1.21)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.modernlife]]
+    modId = "architectury"
+    mandatory = true
+    versionRange = "[9.2.14,)"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.modernlife]]
+    modId = "automobility"
+    mandatory = true
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.modernlife]]
+    modId = "voicechat"
+    mandatory = true
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.modernlife]]
+    modId = "lightmanscurrency"
+    mandatory = false
+    versionRange = "*"
+    ordering = "NONE"
+    side = "BOTH"
